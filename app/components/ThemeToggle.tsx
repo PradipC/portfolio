@@ -19,20 +19,20 @@ export default function ThemeToggle() {
         aria-label="Toggle theme"
       >
         {theme === 'dark' ? (
-          <SunIcon 
+          <SunIcon
             className="w-6 h-6 text-yellow-500 
                        transform rotate-0 scale-100 transition-all duration-500
                        group-hover:text-yellow-400
                        [filter:drop-shadow(0_0_12px_rgba(250,204,21,0.6))]
-                       animate-glow" 
+                       animate-glow"
           />
         ) : (
-          <MoonIcon 
+          <MoonIcon
             className="w-6 h-6 text-gray-700
                        transform rotate-0 scale-100 transition-all duration-500
                        group-hover:text-gray-600
                        [filter:drop-shadow(0_0_12px_rgba(107,114,128,0.6))]
-                       animate-glow" 
+                       animate-glow"
           />
         )}
       </button>

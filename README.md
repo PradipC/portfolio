@@ -1,36 +1,123 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧑‍💻 Pradip Choudhari – Developer Portfolio
 
-## Getting Started
+This is a modern, developer-focused portfolio built with **Next.js** (App Router), styled with **Tailwind CSS**, and deployed on **AWS Amplify**. It showcases my professional background, skills, and projects in a clean and responsive layout.
 
-First, run the development server:
+> 🔗 **Live Site:** [https://codebypradip.com](https://codebypradip.com)  
+> 📆 **GitHub Repo:** [https://github.com/PradipC/portfolio](https://github.com/PradipC/portfolio)
+
+---
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+### 1. Clone the Repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/PradipC/portfolio.git
+cd portfolio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Install Dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Using your preferred package manager:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+pnpm install
+# or
+npm install
+```
 
-## Learn More
+### 3. Run the Development Server
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+pnpm dev
+# or
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see it live.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🌐 Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This portfolio is deployed using **AWS Amplify** with a custom domain.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Platform**: AWS Amplify (SSR enabled)
+- **Custom Domain**: [codebypradip.com](https://codebypradip.com)
+- **Build Command**: `npm run build`
+- **Output Directory**: `.next`
+- **CI/CD**: Automatically redeploys on commits to `master` branch
+
+---
+
+## 🧰 Tech Stack
+
+- **Frontend Framework**: [Next.js](https://nextjs.org) (App Router)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com)
+- **Icons**: [React Icons](https://react-icons.github.io/react-icons)
+- **Fonts**: Google Fonts via `next/font`
+- **Deployment**: [AWS Amplify](https://aws.amazon.com/amplify)
+- **Version Control**: Git + GitHub
+
+---
+
+## 📁 Project Structure
+
+```
+├── app/                   # Main app routes and layout
+├── components/            # Reusable React components
+├── public/                # Static files (images, resume, favicon)
+├── styles/                # Tailwind & global styles
+├── tailwind.config.ts     # Tailwind customization
+├── next.config.ts         # Next.js config
+└── package.json           # Project scripts and metadata
+```
+
+---
+
+## 📄 Resume Download
+
+My resume is available for both **viewing and download** from the site.
+
+- Path: `/documents/java_pradip_6Y_CV.pdf`
+- Feature: Clicking the "Download Resume" button will open it in a new tab **and** auto-download it.
+
+---
+
+## ✨ Features
+
+- 💡 Dark/Light theme toggle with persistence
+- 🌟 Floating "Back to Top" button
+- 📜 Smooth scroll to Skills, Experience, Projects
+- 📱 Fully responsive on all devices
+- 🔍 SEO ready with favicon, meta tags, and Open Graph
+- 📂 Organized codebase using modern best practices
+- 🧠 Developer font previewer (FontTester page)
+- 📌 Resume viewer & downloader
+
+---
+
+## 📚 Learn More
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS Docs](https://tailwindcss.com/docs)
+- [AWS Amplify Hosting](https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html)
+- [Deploying Next.js on Amplify](https://docs.aws.amazon.com/amplify/latest/userguide/nextjs-server-side-rendering.html)
+
+---
+
+## 🙏 Acknowledgements
+
+Crafted with ❤️ by **Pradip Choudhari**
+
+- 🌐 [codebypradip.com](https://codebypradip.com)
+- 👩‍💼 [GitHub](https://github.com/PradipC)
+- 💼 [LinkedIn](https://www.linkedin.com/in/pradip-choudhari)
+
+---
+
+## 📃 License
+
+This project is open source and available under the [MIT License](LICENSE).

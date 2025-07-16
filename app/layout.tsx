@@ -21,7 +21,7 @@ const spaceGrotesk = Space_Grotesk({
 // });
 
 export const metadata: Metadata = {
-  title: "pradip's Portfolio",
+  title: "Pradip's Portfolio",
   description: "Portfolio of pradip",
   icons: {
     icon: '/favicon.png',         
