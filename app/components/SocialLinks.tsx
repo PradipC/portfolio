@@ -36,7 +36,7 @@ export default function Footer() {
       </p>
 
       <p className="mt-4 text-xs font-mono">
-        System.out.println("Thanks for visiting my portfolio!");
+        System.out.println(&quot;Thanks for visiting my portfolio!&quot;);
       </p>
 
     </footer>
