@@ -79,7 +79,7 @@ export default function UserProfile() {
                     text-center sm:text-left font-inter
                     space-y-6">
         <span className="block">
-          Hello 👋🏼 I’m Pradip, a passionate backend developer with <span className="font-semibold text-blue-600 dark:text-[#5c87f6]">6.5+ years</span> of experience in building scalable microservice-based systems using
+          Hello 👋🏼 I’m Pradip, a passionate backend developer with <span className="font-semibold text-blue-600 dark:text-[#5c87f6]">6.6+ years</span> of experience in building scalable microservice-based systems using
           <span className="mx-1 px-2 py-0.5 rounded bg-blue-500/10 dark:bg-blue-500/20 text-blue-700 dark:text-blue-400 font-medium">Java</span> &
           <span className="mx-1 px-2 py-0.5 rounded bg-green-500/10 dark:bg-green-500/20 text-green-700 dark:text-green-400 font-medium">Spring Boot</span>.
         </span>
